@@ -9,7 +9,7 @@ import userRoute from "./route/user.route.js";
 const app = express();
 
 app.use(cors());
-app.use(express.json());
+app.use(express.json());//parse data into JSON form in the database
 
 dotenv.config();
 
